@@ -2,6 +2,10 @@
 
 - Serviços desenvolvidos em java
 - Serviçso envolvidos:
+  - cadastros
+    - armazem
+    - loja
+    - cliente  
   - pedido (webflux)
     - entrada de produtos 
   - remessa (webflux)
@@ -11,3 +15,4 @@
     - geração de palete
     - controle de endereços
     - mudança de endereços(pulmão, picking) 
+    - doca
