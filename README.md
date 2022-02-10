@@ -1,6 +1,7 @@
 # System Architecture Wms
 
-- Serviços desenvolvidos em java
+- Serviços desenvolvidos em java 17
+- Spring boot 3.0
 - Serviçso envolvidos:
   - cadastros
     - armazem
