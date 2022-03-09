@@ -1,17 +1,21 @@
 # System Architecture Wms
 
 - Serviços desenvolvidos em java 17
-- Spring boot 3.0
-- Serviçso envolvidos:
-  - cadastros
+- Quarkus
+- utilizando as boas praticas de programação e os padrões de microservices, como:
+  - resiliência ( circuit breaker)
+  - cloud native
+  - reactive
+  - messaging
+- Serviços envolvidos:  
+  - pedido
+    - entrada de produtos 
+  - remessa
     - armazem
     - loja
-    - cliente  
-  - pedido (webflux)
-    - entrada de produtos 
-  - remessa (webflux)
+    - cliente   
     - saida de produtos 
-  - alocacao (programação imperativa)
+  - alocacao
     - controle de estoque
     - geração de palete
     - controle de endereços
