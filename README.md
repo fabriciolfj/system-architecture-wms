@@ -11,9 +11,7 @@
   - pedido
     - entrada de produtos 
   - remessa
-    - armazem
-    - loja
-    - cliente   
+    - armazem 
     - saida de produtos 
   - alocacao
     - controle de estoque
