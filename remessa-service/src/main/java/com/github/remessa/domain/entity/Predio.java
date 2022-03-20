@@ -4,12 +4,9 @@ import com.github.remessa.domain.command.ApartamentoCommand;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
-
-import static java.util.stream.Stream.of;
 
 
 @Slf4j
@@ -37,6 +34,7 @@ public class Predio {
         }
 
         var quantidade = command.getQuantidade();
+
         while(quantidade > 0) {
             log.info("Numero apartamento: {}", quantidade);
             this.apartamentos.add(new Apartamento(this.code, command.getAltura(), command.getLargura(), command.getTamanhoPalete()));

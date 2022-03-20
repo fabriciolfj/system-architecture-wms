@@ -1,4 +1,4 @@
-package com.github.remessa.domain.service;
+package com.github.remessa.domain.builder;
 
 import com.github.remessa.domain.command.ApartamentoCommand;
 import com.github.remessa.domain.entity.Armazem;

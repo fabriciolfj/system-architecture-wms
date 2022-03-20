@@ -1,7 +1,7 @@
 package com.github.remessa.domain;
 
 import com.github.remessa.domain.command.ApartamentoCommand;
-import com.github.remessa.domain.service.ArmazemBuilder;
+import com.github.remessa.domain.builder.ArmazemBuilder;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -29,6 +29,5 @@ public class ArmazemBuilderTest {
         var predios = armazem.getPredios();
 
         predios.forEach(p -> assertTrue(p.getApartamentos().size() == 10));;
-
     }
 }
