@@ -7,6 +7,7 @@ import lombok.Data;
 @Builder
 public class Palete {
 
+    private String code;
     private Integer tamanho;
     private String produto;
     private Integer quantidade;
