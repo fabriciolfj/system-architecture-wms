@@ -10,10 +10,10 @@
 - Serviços envolvidos:  
   - pedido
     - entrada de produtos 
-  - remessa
-    - armazem 
+  - movimentacao de mercadoria
     - saida de produtos 
-  - alocacao
+    - entrada de produtos
+  - armazem
     - controle de estoque
     - geração de palete
     - controle de endereços
